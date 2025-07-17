@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Task4.css">
+        <script src="Task4.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <h1>Hello, I'm Harsh Kumar</h1>
+            <h2>Cyber Security Student & MERN Stack Developer</h2>
+            <p>3rd Year Student specializing in Cyber Security with a passion for Full Stack Web Development. Building secure, scalable applications with modern technologies.</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>EduMate(College Finder)</h3>
+                    <p>A hostel finding platform that allows students to search for hostels based on location, budget, room type, and facilities. Features detailed hostel profiles and booking management.</p>
+                </div>
+                <div class="project-card">
+                    <h3>FinGenius</h3>
+                    <p>A comprehensive financial tracking application that helps users manage their budget using the 50/30/20 rule (50% for needs, 30% for wants, 20% for savings). Features goal setting, expense tracking, and financial insights.</p>
+                </div>
+                <!-- New Project: Hostel Mate -->
+                <div class="project-card">
+                    <h3>Hostel Mate</h3>
+                    <p>A MERN stack web app to find hostels based on location, budget, room availability, and facilities. <br><b>Technologies:</b> MongoDB, Express, React, Node.js<br><b>Features:</b> Search/filter hostels, view details, compare amenities, responsive design.</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>MongoDB</li>
+                <li>Python</li>
+
+            </ul>
+        </section>
+        <section id="skills-extra" class="section">
+            <div class="skills-extra-grid">
+                <div class="skills-card">
+                    <h2 class="skills-title">Soft Skills</h2>
+                    <div class="skills-btn-grid">
+                        <div class="skills-btn">Time Management</div>
+                        <div class="skills-btn">Leadership</div>
+                        <div class="skills-btn">Communication</div>
+                        <div class="skills-btn">Problem Solving</div>
+                        <div class="skills-btn">Team Collaboration</div>
+                        <div class="skills-btn">Critical Thinking</div>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h2 class="skills-title">Tools & Technologies</h2>
+                    <div class="skills-btn-grid">
+                        <div class="skills-btn">Git</div>
+                        <div class="skills-btn">Microsoft Office Suite</div>
+                        <div class="skills-btn">Wordpad</div>
+                        <div class="skills-btn">VS Code</div>
+                        <div class="skills-btn">Postman</div>
+                        <div class="skills-btn">MongoDB Compass</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="education" class="section">
+            <h2 style="text-align:center;">Education</h2>
+            <div class="education-list">
+                <div class="education-card">
+                    <div class="edu-header">
+                        <div>
+                            <h3>Bachelor of Technology - Cyber Security</h3>
+                            <a href="#" class="edu-school">Malla Reddy University</a>
+                            <div class="edu-location">Hyderabad, India</div>
+                        </div>
+                        <div class="edu-meta">
+                            <span class="edu-years">2023 - 2027</span>
+                            <span class="edu-cgpa">CGPA: 8.0/10.0</span>
+                            <span class="edu-current">Current</span>
+                        </div>
+                    </div>
+                    <div class="edu-desc">Specializing in Cyber Security with focus on network security, penetration testing, and secure application development.</div>
+                </div>
+                <div class="education-card">
+                    <div class="edu-header">
+                        <div>
+                            <h3>Intermediate (XII)</h3>
+                            <a href="#" class="edu-school">S.S+2 High School</a>
+                            <div class="edu-location">Jharkhand, India</div>
+                        </div>
+                        <div class="edu-meta">
+                            <span class="edu-years">2021 - 2023</span>
+                            <span class="edu-percent">79%</span>
+                        </div>
+                    </div>
+                    <div class="edu-desc">Completed higher secondary education with strong performance in science subjects.<br>Jharkhand Academic Council (JAC)</div>
+                </div>
+                <div class="education-card">
+                    <div class="edu-header">
+                        <div>
+                            <h3>Secondary School Certificate (X)</h3>
+                            <a href="#" class="edu-school">Kisan High School</a>
+                            <div class="edu-location">Jharkhand, India</div>
+                        </div>
+                        <div class="edu-meta">
+                            <span class="edu-years">2021</span>
+                            <span class="edu-percent">74%</span>
+                        </div>
+                    </div>
+                    <div class="edu-desc">Completed secondary education with focus on mathematics and science.<br>Jharkhand Academic Council (JAC)</div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div id="form-message"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Harsh Kumar. All rights reserved.</p>
+    </footer>
+    <script src="Task3.js"></script>
+</body>
+</html> 
